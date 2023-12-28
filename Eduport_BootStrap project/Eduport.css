@@ -1,0 +1,30 @@
+.tutor{
+    background-color: rgb(5, 5, 248) !important;
+}
+
+.btn-danger-soft:hover {
+    background-color: red !important;
+    color: white !important;
+  }
+  a{
+    text-decoration: none;
+    color: black !important;
+  }
+  .item-show {
+    position: relative;
+  }
+
+  .btn-add-to-cart {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .item-show:hover .btn-add-to-cart {
+    display: inline-block;
+  }
+
+  .item-show:hover .price {
+    display: none;
+  }
